@@ -43,7 +43,7 @@ a.disabled {
     font-weight: bold;
     color: gold;
 }
-/*  Or .padded > span input[type="text] */
+/*  Or .padded > span input[type="text"] */
 input[type="text"] {
     line-height: 25px;
 }

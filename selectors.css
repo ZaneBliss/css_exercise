@@ -1,0 +1,49 @@
+header {
+    border: 1px solid goldenrod
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+header ul li {
+    display: inline;
+}
+
+.disabled {
+    color: grey;
+}
+a.disabled {
+    color: purple;
+}
+.active {
+    color: yellow;
+}
+/* Or use .parent > div div:first-child */
+.parent div div {
+    color: red;
+}
+
+/* Or use .parent > div div:last-of-type */
+.parent div h4 + div {
+    color: blue;
+}
+/* Or use .parent > div div:first-child ~ h4:first-of-type */
+.parent div h4 {
+    background-color: red;
+}
+/* Or use .parent > div div:last-of-type ~ h4 */
+.parent div h4 ~ h4 {
+    background-color: blue;
+}
+.grandparent > h4 {
+    border: blue solid 1px
+}
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+/*  Or .padded > span input[type="text] */
+input[type="text"] {
+    line-height: 25px;
+}
